@@ -1,0 +1,54 @@
+html,body,iframe{
+	margin: 0;
+	padding: 0;
+}
+
+#nprogress{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #224ABE;
+	z-index: 999;
+}
+.spinner-icon{
+	display: none!important;
+}
+
+.progress{
+  border: 5px;
+  padding: 1px;
+}
+
+.splash {
+    position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    margin: auto;
+  }
+
+  .splash img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+  .card {
+    background-color: #224ABE;
+    padding: 20px 30px 15px;
+    margin: 0 auto 30px;
+    width: 200px;
+  }
+
+  .mybar {
+    background: #ffffff;
+    height:3px;
+  }
+
+  .progress {
+    height: 3px;
+    overflow: hidden;
+  }
